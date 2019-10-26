@@ -4,19 +4,19 @@ data = pandas.read_csv('titanic.csv', index_col='PassengerId')
 
 
 # Display data frame
-def ShowData():
+def show_data():
     print(data)
 
 
 # Determination of the number of men on the ship
-def MalesCountDefine():
+def males_count_define():
     malesCount = data[data.Sex == 'male']['Sex'].count()
     print('Males count: ', malesCount)
     return malesCount
 
 
 # Determination of the number of women on the ship
-def FemalesCountDefine():
+def females_count_define():
     femalesCount = data[data.Sex == 'female']['Sex'].count()
     print('Females count: ', femalesCount)
     return femalesCount
@@ -25,7 +25,7 @@ def FemalesCountDefine():
 # Determination of the survived
 # If the value of roundValue = None, displays the number of survivors,
 # if not, then the percentage of survivors is displayed, rounded in accordance with the value of roundValue
-def SurvivedDefine(roundValue=None):
+def survived_define(roundValue=None):
     if roundValue is not None:
         survivedCount = data[data.Survived == 1]['Survived'].count()
         totalPassengersCount = data['Survived'].count()
@@ -42,7 +42,7 @@ def SurvivedDefine(roundValue=None):
 # If the value roundValue = None,
 # the number of passengers of a certain class (specified using the classValue parameter) is displayed,
 # if not, the percentage of passengers is displayed, a specific class, rounded according to the value of roundValue
-def ClassPassengersDefine(classValue, roundValue=None):
+def class_passengers_define(classValue, roundValue=None):
     if roundValue is not None:
         firstClassPassengersCount = data[data.Pclass == classValue]['Pclass'].count()
         totalPassengersCount = data['Pclass'].count()
@@ -56,7 +56,7 @@ def ClassPassengersDefine(classValue, roundValue=None):
 
 
 # Determining the average age of passengers
-def AverageAgeDefine(roundValue=None):
+def average_age_define(roundValue=None):
     if roundValue is not None:
         averageAge = round(data['Age'].mean(), roundValue)
         print('Average age of passengers:', averageAge)
@@ -68,7 +68,7 @@ def AverageAgeDefine(roundValue=None):
 
 
 # Determining the median age of passengers
-def MedianAgeDefine(roundValue=None):
+def median_age_define(roundValue=None):
     if roundValue is not None:
         medianAge = round(data['Age'].median(), roundValue)
         print('Median age of passengers:', medianAge)
@@ -80,12 +80,11 @@ def MedianAgeDefine(roundValue=None):
 
 
 # Counting the correlation value between two columns
-def CorrelationCalculate(firstColumn, secondColumn, method, roundValue=None):
+def correlation_calculate(firstColumn, secondColumn, method, roundValue=None):
     if roundValue is not None:
         corrValue = round(data[firstColumn].corr(data[secondColumn], method=method), roundValue)
         print('Pearson correlation value:', corrValue)
         return corrValue
-
     else:
         corrValue = round(data[firstColumn].corr(data[secondColumn], method=method), 2)
         print('Pearson correlation value:', round(data[firstColumn].corr(data[secondColumn], method=method), 2))
@@ -93,7 +92,7 @@ def CorrelationCalculate(firstColumn, secondColumn, method, roundValue=None):
 
 
 # Identify the most popular name
-def MostPopularNameDefine(sex):
+def most_popular_name_define(sex):
     femaleNames = data[data.Sex == sex]['Name']
     temp = []
     for index in femaleNames:
@@ -117,7 +116,7 @@ def MostPopularNameDefine(sex):
 # Question 1
 # How many men and women rode the ship? As an answer, give two numbers separated by a space
 file_answer1 = open("answer # 1.txt", "w")
-answer1 = str(MalesCountDefine()) + ' ' + str(FemalesCountDefine())
+answer1 = str(males_count_define()) + ' ' + str(females_count_define())
 file_answer1.write(answer1)
 file_answer1.close()
 
@@ -127,7 +126,7 @@ file_answer1.close()
 # Give the answer in percent (a number in the range from 0 to 100, a percent sign is not needed),
 # rounded to two characters
 file_answer2 = open("answer # 2.txt", "w")
-answer2 = str(SurvivedDefine(2))
+answer2 = str(survived_define(2))
 file_answer2.write(answer2)
 file_answer2.close()
 
@@ -136,7 +135,7 @@ file_answer2.close()
 # Give the answer in percent (a number in the range from 0 to 100, a percent sign is not needed),
 # rounded to two characters
 file_answer3 = open("answer # 3.txt", "w")
-answer3 = str(ClassPassengersDefine(1, 2))
+answer3 = str(class_passengers_define(1, 2))
 file_answer3.write(answer3)
 file_answer3.close()
 
@@ -145,7 +144,7 @@ file_answer3.close()
 # Calculate the average and median age of passengers.
 # As an answer, give two numbers separated by a space
 file_answer4 = open("answer # 4.txt", "w")
-answer4 = str(AverageAgeDefine(2)) + ' ' + str(MedianAgeDefine(2))
+answer4 = str(average_age_define(2)) + ' ' + str(median_age_define(2))
 file_answer4.write(answer4)
 file_answer4.close()
 
@@ -153,7 +152,7 @@ file_answer4.close()
 # Do the number of brothers / sisters / spouses correlate with the number of parents / children?
 # Count the Pearson correlation between the SibSp and Parch traits
 file_answer5 = open("answer # 5.txt", "w")
-answer5 = str(CorrelationCalculate('SibSp', 'Parch', 'pearson'))
+answer5 = str(correlation_calculate('SibSp', 'Parch', 'pearson'))
 file_answer5.write(answer5)
 file_answer5.close()
 
@@ -161,6 +160,6 @@ file_answer5.close()
 # What is the most popular female name on the ship?
 # Extract the passenger’s full name (Name column) from his personal name (First Name)
 file_answer6 = open("answer # 6.txt", "w")
-answer6 = str(MostPopularNameDefine('female'))
+answer6 = str(most_popular_name_define('female'))
 file_answer6.write(answer6)
 file_answer6.close()
