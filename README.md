@@ -4,5 +4,5 @@ Completed practical tasks of the course **"Introduction to Machine Learning"** f
 
 ### 1. Pandas data preprocessing
 >**Install Requirements:** 
->- *Python – version 3.8*
->- *pandas-learn - version 0.25.3*
+* Python – version 3.8
+* pandas - version 0.25.3
