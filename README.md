@@ -6,3 +6,9 @@ Completed practical tasks of the course **"Introduction to Machine Learning"** f
 >**Install Requirements:** 
 * Python – version 3.8
 * pandas - version 0.25.3
+
+### 2. Choosing the number of neighbors
+>**Install Requirements:** 
+* Python – version 3.8
+* pandas - version 0.25.3
+* skikit-learn - version 0.21.3
