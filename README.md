@@ -36,3 +36,10 @@ https://github.com/AlexeyPopov1997/machine_learning/tree/master/Normalization%20
 * Python – version 3.8
 * pandas - version 0.25.3
 * skikit-learn - version 0.21.3
+
+### 6. Text analysis
+https://github.com/AlexeyPopov1997/machine_learning/tree/master/Text%20analysis
+>**Install Requirements:** 
+* Python – version 3.8
+* numpy - version 1.17.3
+* skikit-learn - version 0.21.3
