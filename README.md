@@ -29,3 +29,10 @@ https://github.com/AlexeyPopov1997/machine_learning/tree/master/Importance%20of%
 * numpy - version 1.17.3
 * pandas - version 0.25.3
 * skikit-learn - version 0.21.3
+
+### 5. Normalization of features
+https://github.com/AlexeyPopov1997/machine_learning/tree/master/Normalization%20of%20features
+>**Install Requirements:** 
+* Python – version 3.8
+* pandas - version 0.25.3
+* skikit-learn - version 0.21.3
