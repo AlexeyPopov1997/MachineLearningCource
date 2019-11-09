@@ -21,3 +21,11 @@ https://github.com/AlexeyPopov1997/machine_learning/tree/master/Metric%20selecti
 * Python – version 3.8
 * numpy - version 1.17.3
 * skikit-learn - version 0.21.3
+
+### 4. Importance of features in building decision trees
+https://github.com/AlexeyPopov1997/machine_learning/tree/master/Importance%20of%20features%20in%20building%20decision%20trees
+>**Install Requirements:** 
+* Python – version 3.8
+* numpy - version 1.17.3
+* pandas - version 0.25.3
+* skikit-learn - version 0.21.3
