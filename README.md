@@ -12,3 +12,9 @@ Completed practical tasks of the course **"Introduction to Machine Learning"** f
 * Python – version 3.8
 * pandas - version 0.25.3
 * skikit-learn - version 0.21.3
+
+### 3. Metric selection
+>**Install Requirements:** 
+* Python – version 3.8
+* numpy - version 1.17.3
+* skikit-learn - version 0.21.3
