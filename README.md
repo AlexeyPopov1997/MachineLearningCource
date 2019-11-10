@@ -65,3 +65,10 @@ https://github.com/AlexeyPopov1997/machine_learning/tree/master/Classification%2
 * Python – version 3.8
 * pandas - version 0.25.3
 * skikit-learn - version 0.21.3
+
+### 10. Linear regression (salary forecast)
+https://github.com/AlexeyPopov1997/machine_learning/tree/master/Linear%20regression%20(salary%20forecast)
+>**Install Requirements:** 
+* Python – version 3.8
+* pandas - version 0.25.3
+* skikit-learn - version 0.21.3
