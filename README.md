@@ -58,3 +58,10 @@ https://github.com/AlexeyPopov1997/machine_learning/tree/master/Logistic%20regre
 * numpy - version 1.17.3
 * pandas - version 0.25.3
 * skikit-learn - version 0.21.3
+
+### 9. Classification quality metrics
+https://github.com/AlexeyPopov1997/machine_learning/tree/master/Classification%20quality%20metrics
+>**Install Requirements:** 
+* Python – version 3.8
+* pandas - version 0.25.3
+* skikit-learn - version 0.21.3
