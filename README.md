@@ -50,3 +50,11 @@ https://github.com/AlexeyPopov1997/machine_learning/tree/master/Reference%20obje
 * Python – version 3.8
 * pandas - version 0.25.3
 * skikit-learn - version 0.21.3
+
+### 8. Logistic regression
+https://github.com/AlexeyPopov1997/machine_learning/tree/master/Logistic%20regression
+>**Install Requirements:** 
+* Python – version 3.8
+* numpy - version 1.17.3
+* pandas - version 0.25.3
+* skikit-learn - version 0.21.3
