@@ -80,3 +80,11 @@ https://github.com/AlexeyPopov1997/machine_learning/tree/master/Stock%20index%20
 * numpy - version 1.17.3
 * pandas - version 0.25.3
 * skikit-learn - version 0.21.3
+
+### 12. Random forest size
+https://github.com/AlexeyPopov1997/machine_learning/tree/master/Stock%20index%20compilation
+>**Install Requirements:** 
+* Python – version 3.8
+* pandas - version 0.25.3
+* skikit-learn - version 0.21.3
+
