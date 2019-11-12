@@ -88,3 +88,11 @@ https://github.com/AlexeyPopov1997/machine_learning/tree/master/Stock%20index%20
 * pandas - version 0.25.3
 * skikit-learn - version 0.21.3
 
+### 13. Gradient boost over decisive trees
+https://github.com/AlexeyPopov1997/machine_learning/tree/master/Gradient%20boost%20over%20decisive%20trees
+>**Install Requirements:** 
+* Python – version 3.8
+* numpy - version 1.17.3
+* pandas - version 0.25.3
+* matplotlib - version 3.1.1
+* skikit-learn - version 0.21.3
