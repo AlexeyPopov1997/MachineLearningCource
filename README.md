@@ -82,7 +82,7 @@ https://github.com/AlexeyPopov1997/machine_learning/tree/master/Stock%20index%20
 * skikit-learn - version 0.21.3
 
 ### 12. Random forest size
-https://github.com/AlexeyPopov1997/machine_learning/tree/master/Stock%20index%20compilation
+https://github.com/AlexeyPopov1997/machine_learning/tree/master/Random%20forest%20size
 >**Install Requirements:** 
 * Python – version 3.8
 * pandas - version 0.25.3
