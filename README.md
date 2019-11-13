@@ -96,3 +96,12 @@ https://github.com/AlexeyPopov1997/machine_learning/tree/master/Gradient%20boost
 * pandas - version 0.25.3
 * matplotlib - version 3.1.1
 * skikit-learn - version 0.21.3
+
+### 14. Reducing the number of image colors
+https://github.com/AlexeyPopov1997/machine_learning/tree/master/Reducing%20the%20number%20of%20image%20colors
+>**Install Requirements:** 
+* Python – version 3.8
+* numpy - version 1.17.3
+* pandas - version 0.25.3
+* matplotlib - version 3.1.1
+* skikit-learn - version 0.21.3
